@@ -1,2 +1,1 @@
-# Django
-Django study
+# Backjoon Online Judge Study
