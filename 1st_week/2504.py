@@ -1,4 +1,4 @@
-# Baekjoon Online Judge Q)1874
+# Baekjoon Online Judge Q)2504
 # Language : python3
 # Version : 3.5.2
 # Date : 2017. 03. 11
