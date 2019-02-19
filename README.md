@@ -13,3 +13,26 @@
 
 * [19장: 큐와 스택, 데크](https://github.com/sauber92/Study_Algorithm/tree/master/Book/Ch19)  
 * ...
+
+## 컴파일   
+
+### 컴파일 환경  
+
+* 언어: C++11   
+* 컴파일: GNU gcc(ver 5.4.0), GNU Make(ver 4.1)  
+* OS: Ubuntu 16.04  
+* CPU: Intel(R) Core(TM) i3-2100 CPU @ 3.10GHz    
+
+### 컴파일 예시  
+
+#### test.cpp 파일 컴파일  
+
+```
+sauber92@linux ~$ make app=test  
+```
+
+#### 실행 파일 제거  
+
+```
+sauber92@linux ~$ make clean
+```
