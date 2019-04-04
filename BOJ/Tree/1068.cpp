@@ -3,68 +3,67 @@
 #include <queue>
 using namespace std;
 
-struct Tree {
-    int val;
-    int parent;
-    vector<int> child;
-} tree[50];
+vector<int> vec_tree[50];
+vector<int> vec_parents;
+queue<int> q;
 
-
-int calc(int start) {
-    int count = 0;
-    queue<int> q;
-
-    q.push(start);
-
+void calcLeaf(int& count) {
     while (!q.empty()) {
-        int here = q.front();
+        int front = q.front();
+        int size = vec_tree[front].size();
         q.pop();
 
-        if (tree[here].child.empty()) {
+        if (size == 0) {
             count++;
         }
-
-        for (unsigned int i = 0; i < tree[here].child.size(); i++) {
-            q.push(tree[here].child[i]);
+        else {
+            for (int i = 0; i < size; i++) {
+                q.push(vec_tree[front][i]);
+            }
         }
     }
-
-    return count;
 }
 
 int main() {
-    int N, start, del;
+    int N, parent, del, count = 0;
+
     cin >> N;
 
     for (int i = 0; i < N; i++) {
-        cin >> tree[i].val;
+        cin >> parent;
 
-        if (tree[i].val == -1) {
-            start = i;
+        if (parent != -1) {
+            vec_tree[parent].push_back(i);
         }
         else {
-            int p = tree[i].val;
-            int c = i;
-            tree[c].parent = p;
-            tree[p].child.push_back(c);
+            vec_parents.push_back(i);
         }
     }
 
     cin >> del;
 
-    if (del == start) {
-        cout << "0\n";
-    }
-    tree[del].child.clear();
-
-    int p = tree[del].parent;
-    for (unsigned int i = 0; i < tree[p].child.size(); i++) {
-        if (tree[p].child[i] == del) {
-            tree[p].child.erase(tree[p].child.begin() + i);
+    for (auto itr = vec_parents.begin(); itr != vec_parents.end(); itr++) {
+        if (*itr == del) {
+            vec_parents.erase(itr);
+            break;
         }
     }
 
-    cout << calc(start) << "\n";
+    for (int i = 0; i < N; i++) {
+        for (auto itr = vec_tree[i].begin(); itr != vec_tree[i].end(); itr++) {
+            if (*itr == del) {
+                vec_tree[i].erase(itr);
+                break;
+            }
+        }
+    }
+
+    for (unsigned int i = 0; i < vec_parents.size(); i++) {
+        q.push(vec_parents[i]);
+        calcLeaf(count);
+    }
+
+    cout << count << "\n";
 
     return 0;
 }
