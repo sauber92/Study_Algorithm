@@ -17,6 +17,7 @@
 [알고리즘 문제 해결 전략](https://book.naver.com/bookdb/book_detail.nhn?bid=7058764)에 나온 문제 풀이  
 
 * [19장: 큐와 스택, 데크](https://github.com/sauber92/Study_Algorithm/tree/master/Book/Ch19)  
+* [21장: 트리의 구현과 순회](https://github.com/sauber92/Study_Algorithm/tree/master/Book/Ch21)  
 * ...
 
 ## 컴파일   
