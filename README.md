@@ -11,7 +11,8 @@
 4. [Array](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Array)
 5. [Linked List](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Linked_List)
 6. [Tree](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Tree)
-7. ...
+7. [Math](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Math)
+8. ...
 
 ## **Book** Directory  
 [알고리즘 문제 해결 전략](https://book.naver.com/bookdb/book_detail.nhn?bid=7058764)에 나온 문제 풀이  
