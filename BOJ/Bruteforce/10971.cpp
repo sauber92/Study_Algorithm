@@ -37,7 +37,7 @@ int main() {
             }
         }
 
-    } while (next_permutation(d.begin(), d.end()));
+    } while (next_permutation(d.begin()+1, d.end()));
 
     printf("%d\n", ans);
     
