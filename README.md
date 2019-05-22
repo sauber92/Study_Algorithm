@@ -13,7 +13,8 @@
 6. [Tree](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Tree)
 7. [Math](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Math)
 8. [Bruteforce](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Bruteforce)
-9. ...
+9. [Recursive](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Recursive)
+10. ...
 
 ## **Book** Directory  
 [알고리즘 문제 해결 전략](https://book.naver.com/bookdb/book_detail.nhn?bid=7058764)에 나온 문제 풀이  
