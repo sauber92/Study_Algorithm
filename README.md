@@ -3,8 +3,6 @@
 ## **BOJ** Directory  
 [BAEKJOON ONLINE JUDGE](https://www.acmicpc.net/)에 업로드 된 문제 풀이  
 
-*문제 > 알고리즘 분류*에 수록 된 문제 풀이
-
 1. [Stack](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Stack)
 2. [Queue](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Queue)
 3. [Deque](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Deque)
@@ -14,7 +12,8 @@
 7. [Math](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Math)
 8. [Bruteforce](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Bruteforce)
 9. [Recursive](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Recursive)
-10. ...
+10. [Bitmask](https://github.com/sauber92/Study_Algorithm/tree/master/BOJ/Bitmask)
+11. ...
 
 ## **Book** Directory  
 [알고리즘 문제 해결 전략](https://book.naver.com/bookdb/book_detail.nhn?bid=7058764)에 나온 문제 풀이  
